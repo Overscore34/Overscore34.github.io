@@ -2,25 +2,20 @@
 <html>
 <head> 
     <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="styles.css">
-    <title>Overscore</title> 
+    <!-- <link rel="stylesheet" href="styles.css">
+    <title>Overscore</title>  -->
 </head> 
 
 <body id="body"> 
-    <!-- <a href="https://overscore34.github.io">
-        <img src="https://overscore34.github.io/images/overscoreBanner.png" id="banner">
-    </a> -->
-    <hr id="topDivider">
-    <h1 id="mainTitle">Overscore</h1>
+    <div w3-include-html="prefab.html"></div>
     
-    <div id="buttons">
-        <button class="tabs" id="about">about me</button>
-        <button class="tabs" id="projects">projects</button>
-        <button class="tabs" id="friends">Friends</button>
-    </div>
+    <img src="images/overscoreBanner.png">
     
-
     <script src="js/switch.js"></script>
+    <script src="js/includeHTML.js"></script>
+    <script>
+        includeHTML();
+    </script>
 <!-- <script src ="js/shrine.js"></script> -->
 </body> 
 </html>

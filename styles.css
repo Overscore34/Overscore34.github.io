@@ -10,49 +10,64 @@
     src: url(font.woff2);
 }
 
-/* #banner {
-    width: 550px;
-    height: 150px;
-} */
-
+/*-------------------- navbar -----------------------*/
 #mainTitle {
-    text-align: center;
+    /* text-align: center; */
+    color: aliceblue;
+    top: 1rem;
+    left: 20rem;
     font-size: 50px;
     font-family: coolFont;
     position: relative;
-    top: -30px;
+    /* top: -30px; */
 }
 
-#topDivider {
-    border: none;
-    height: 3px;
-    background-color: #333;  
+#navbar {
+    /* -ms-flex-item-align: center; */
     position: relative;
-    top: 70px;
+    top: -2.5rem;
+    height: 6rem;
+    width: 500rem;
+    left: -2rem;
+    background-color: rgb(51, 51, 51); 
 }
 
-#buttons {
-    position: relative;
-    top: -20px;
-    
-}
-
+/*--------------------the buttons--------------------*/
 .tabs {
-    width: 100px;
-    height: 50px;
+    color: aliceblue;
+    /* width: 10rem;
+    height: 5rem; */
+    /* left: 60rem; */
+    /* top: -6rem; */
+    position: relative;
     font-family: coolFont;
     font-size: large;
 }
 
-/*--------------------the buttons--------------------*/
+#tabs {
+    position: relative;
+    top: -4rem;
+}
+
+#home {
+    font-size: 1.5rem;
+    left: 72rem;
+}
+
 #projects {
-    /* font-family: coolFont; */
+    font-size: 1.5rem;
+    left: 74rem;
 }
 
-#about {
-    /* font-family: coolFont; */
+
+#friends {
+    font-size: 1.5rem;
+    left: 76rem;
 }
 
-#theShrine {
-    /* font-family: coolFont; */
+/*---------------------- friend ---------------------*/
+.friend {
+    position: relative;
+    width: 100rem;
+    height: 50rem;
 }
