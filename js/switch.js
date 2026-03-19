@@ -5,4 +5,3 @@ const friendsBut = document.getElementById("friends");
 document.getElementById("about").addEventListener('click', enter());
 document.getElementById("projects").addEventListener('click', enter());
 document.getElementById("friends").addEventListener('click', enter());
-
