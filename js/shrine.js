@@ -26,4 +26,4 @@ function exit() {
     animationId = null;
 }
 
-document.getElementById("theShrine").addEventListener('click', enter());
+document.getElementById("friends").addEventListener('click', enter());
