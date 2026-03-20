@@ -27,7 +27,7 @@ body {
     position: absolute;
     left: 0vw;
     top: 4vw;
-    height: 50vw;
+    height: 35vw;
     width: 100vw;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
 }

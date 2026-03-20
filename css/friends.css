@@ -1,3 +1,8 @@
+@font-face {
+    font-family: coolFont;
+    src: url(font.woff2);
+}
+
 .friend {
     position: absolute;
     top: 3vw;
@@ -5,7 +10,31 @@
 }
 
 .friendimg {
-    position: static;
+    position: absolute;
     width: 30vw;
     height: 10vw;
+    top: 2vw;
+}
+
+#silver {
+    left: 0vw;
+    top: 3vw;
+    image-rendering: pixelated;
+}
+#bemannu {
+    left: 0vw;
+    top: 14vw;
+    /* image-rendering: pixelated; */
+}
+#blazing {
+    left: 0vw;
+    top: 25vw;
+    /* image-rendering: pixelated; */
+}
+
+#myCode {
+    position: absolute;
+    left: 50vw;
+    top: 6vw;
+    font-family: coolFont;
 }
