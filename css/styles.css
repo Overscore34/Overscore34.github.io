@@ -1,9 +1,21 @@
-#body {
+html, div, h1 {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0;
+}
+
+body {
     background-repeat: inherit;
     background-color: beige;
     background-blend-mode: difference;
     /* background-color: antiquewhite; */
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0;
 }
 
 @font-face {
@@ -12,8 +24,10 @@
 }
 
 #banner {
-    /* left: -10; */
-    /* top: 10vw; */
-    height: 30vw;
+    position: absolute;
+    left: 0vw;
+    top: 4vw;
+    height: 50vw;
     width: 100vw;
+    image-rendering: -webkit-optimize-contrast;
 }

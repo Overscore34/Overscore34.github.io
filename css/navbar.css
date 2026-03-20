@@ -7,7 +7,7 @@
 #mainTitle {
     /* text-align: center; */
     color: aliceblue;
-    top: 1vw;
+    top: 0vw;
     left: 16vw;
     font-size: 3.5vw;
     font-family: coolFont;
@@ -17,12 +17,20 @@
 
 #navbar {
     /* -ms-flex-item-align: center; */
-    position: relative;
-    top: -2.5vw;
-    height: 6vw;
+    /* position: sticky; */
+    position: sticky;
+    /* top: 0; */
+    top: 0vw;
+    height: 4vw;
     width: 500vw;
     left: -2vw;
     background-color: rgb(15, 41, 15); 
+}
+
+#navHolder {
+    position: static;
+    height: 100vw;
+    width: 100vw;
 }
 
 /*--------------------the buttons--------------------*/
@@ -39,7 +47,7 @@
 
 #tabs {
     position: relative;
-    top: -4vw;
+    top: -3vw;
 }
 
 #home {
@@ -51,7 +59,6 @@
     font-size: 1.5vw;
     left: 70vw;
 }
-
 
 #friends {
     font-size: 1.5vw;
