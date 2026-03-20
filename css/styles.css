@@ -1,0 +1,19 @@
+#body {
+    background-repeat: inherit;
+    background-color: beige;
+    background-blend-mode: difference;
+    /* background-color: antiquewhite; */
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: coolFont;
+    src: url(font.woff2);
+}
+
+#banner {
+    /* left: -10; */
+    /* top: 10vw; */
+    height: 30vw;
+    width: 100vw;
+}

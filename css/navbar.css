@@ -1,0 +1,59 @@
+@font-face {
+    font-family: coolFont;
+    src: url(font.woff2);
+}
+
+/*-------------------- navbar -----------------------*/
+#mainTitle {
+    /* text-align: center; */
+    color: aliceblue;
+    top: 1vw;
+    left: 16vw;
+    font-size: 3.5vw;
+    font-family: coolFont;
+    position: relative;
+    /* top: -30px; */
+}
+
+#navbar {
+    /* -ms-flex-item-align: center; */
+    position: relative;
+    top: -2.5vw;
+    height: 6vw;
+    width: 500vw;
+    left: -2vw;
+    background-color: rgb(15, 41, 15); 
+}
+
+/*--------------------the buttons--------------------*/
+.tabs {
+    color: aliceblue;
+    /* width: 10vw;
+    height: 5vw; */
+    /* left: 60vw; */
+    /* top: -6vw; */
+    position: relative;
+    font-family: coolFont;
+    font-size: large;
+}
+
+#tabs {
+    position: relative;
+    top: -4vw;
+}
+
+#home {
+    font-size: 1.5vw;
+    left: 68vw;
+}
+
+#projects {
+    font-size: 1.5vw;
+    left: 70vw;
+}
+
+
+#friends {
+    font-size: 1.5vw;
+    left: 72vw;
+}
