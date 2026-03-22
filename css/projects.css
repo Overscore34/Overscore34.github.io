@@ -1,0 +1,9 @@
+.projectIcons {
+    outline-style: auto;
+    outline-width: 2rem;
+    outline-color: aqua;
+    position: absolute;
+    top: 1rem;
+    width: 20rem;
+    height: 15rem;
+}
