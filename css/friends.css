@@ -32,9 +32,18 @@
     /* image-rendering: pixelated; */
 }
 
-#myCode {
+.myCode {
     position: absolute;
+    width: 39vw;
     left: 50vw;
     top: 10vw;
     font-family: coolFont;
+}
+#myLink {
+    position: absolute;
+    top: 1vw;
+}
+#code {
+    position: absolute;
+    top: 13vw;
 }
